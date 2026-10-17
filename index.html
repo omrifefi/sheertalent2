@@ -353,11 +353,14 @@ img, .file-zoomable { touch-action: auto; }
    APP_VERSION (any new string, e.g. today's date) and replace WHATS_NEW.items.
    Each phone remembers the last version it showed (localStorage), so the popup
    appears again automatically the next time the app opens after an update. */
-const APP_VERSION = "2026-10-12";
+const APP_VERSION = "2026-10-17";
 const WHATS_NEW = {
   title: "What's new",
   subtitle: "Safer syncing and backups",
   items: [
+    { icon:"🔎", title:"Sync errors now show JSONBin's own explanation",
+      body:"When the shared storage refuses a request, the error now includes the message JSONBin sent back, so the real reason (key, limit, permission) is visible instead of a guess.",
+      where:"Dashboard → sync panel, or the “Nothing was changed” message." },
     { icon:"🔄", title:"Change the shared storage if syncing is refused",
       body:"If both phones show a sync error such as HTTP 403, the shared storage account (JSONBin) may have run out of requests or the key changed. You can now point a phone at a new storage without losing anything: one phone creates the new storage from its own data, the other connects to it. The phone's previous data is kept aside first.",
       where:"Dashboard → scroll to the bottom → Change shared storage…" },
@@ -3677,13 +3680,21 @@ const stashReplaced = (copy, why) => {
     localStorage.setItem(REPLACED_KEY, JSON.stringify(list));
   } catch(e) { /* storage full: nothing more we can do */ }
 };
+// A failed request becomes an Error that carries JSONBin's own explanation, so the real reason is visible.
+const httpFail = async (res) => {
+  let msg = "";
+  try { const t = await res.text(); try { msg = (JSON.parse(t).message)||t; } catch(e) { msg = t; } } catch(e) {}
+  return new Error("HTTP "+res.status+(msg?" | "+String(msg).slice(0,200):""));
+};
 const syncReason = (e) => {
   const m = String((e&&e.message)||e||"");
   const code = (m.match(/HTTP (\d+)/)||[])[1];
-  if (code==="401"||code==="403") return "The cloud storage refused the request (HTTP "+code+"). The key may be wrong, or the free request limit was reached.";
-  if (code==="429") return "The cloud storage's request limit was reached (HTTP 429). It usually clears after a while.";
-  if (code==="404") return "The shared storage (Bin ID) was not found (HTTP 404).";
-  if (code) return "The cloud storage answered with an error (HTTP "+code+").";
+  const said = (m.match(/\| (.+)$/)||[])[1];
+  const tail = said ? " JSONBin says: “"+said+"”" : "";
+  if (code==="401"||code==="403") return "The cloud storage refused the request (HTTP "+code+"). The key may be wrong, or the free request limit was reached."+tail;
+  if (code==="429") return "The cloud storage's request limit was reached (HTTP 429). It usually clears after a while."+tail;
+  if (code==="404") return "The shared storage (Bin ID) was not found (HTTP 404)."+tail;
+  if (code) return "The cloud storage answered with an error (HTTP "+code+")."+tail;
   return "No connection to the cloud storage. Check the internet connection.";
 };
 const saveBlobFile = async (blob, name, type) => {
@@ -3802,7 +3813,7 @@ function App() {
           headers:{ "Content-Type":"application/json", "X-Master-Key":key, "X-Bin-Name":"SheerTalentCRM" },
           body: JSON.stringify(snap),
         });
-        if (!res.ok) throw new Error("HTTP "+res.status);
+        if (!res.ok) throw await httpFail(res);
         const id = (await res.json()).metadata.id;
         stashReplaced(snap, "Data on this phone before the shared storage was changed");
         writeLastSynced(snap.updatedAt||0);
@@ -3812,7 +3823,7 @@ function App() {
         const id = (window.prompt("Paste the Bin ID from the other phone:")||"").trim();
         if (!id) return;
         const res = await fetch("https://api.jsonbin.io/v3/b/"+id+"/latest", { headers:{ "X-Master-Key":key } });
-        if (!res.ok) throw new Error("HTTP "+res.status);
+        if (!res.ok) throw await httpFail(res);
         stashReplaced(dataRef.current, "Data on this phone before the shared storage was changed");
         writeLastSynced(0);       // anything on this phone that the new storage replaces is kept aside
         handleCloudConnect(id, key);
@@ -3838,7 +3849,7 @@ function App() {
     fetch(`https://api.jsonbin.io/v3/b/${cloudConfig.binId}/latest`, {
       headers: { "X-Master-Key": cloudConfig.apiKey },
     })
-      .then(res=>{ if(!res.ok) throw new Error("HTTP "+res.status); return res.json(); })
+      .then(res=>{ if(!res.ok) return httpFail(res).then(e=>{ throw e; }); return res.json(); })
       .then(json=>{
         if(cancelled) return;
         const cloudRecord   = json.record ? migrateData(json.record) : null;
@@ -3891,7 +3902,7 @@ function App() {
       body: JSON.stringify(payload),
       keepalive: !!keepalive,
     })
-      .then(res=>{ if(!res.ok) throw new Error("HTTP "+res.status); setSyncStatus("synced"); setSyncError(""); setLastSynced(Date.now()); writeLastSynced(payload.updatedAt||0); })
+      .then(res=>{ if(!res.ok) return httpFail(res).then(e=>{ throw e; }); setSyncStatus("synced"); setSyncError(""); setLastSynced(Date.now()); writeLastSynced(payload.updatedAt||0); })
       .catch((e)=>{ setSyncStatus("error"); setSyncError(syncReason(e)); });
   };
   useEffect(()=>{
