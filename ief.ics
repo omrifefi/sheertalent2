@@ -1,0 +1,717 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dressage Israel//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:דרסז׳ ישראל
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:91a60be0-8d36-4003-904b-f3348c2c1e57@ief-dressage.com
+DTSTAMP:20251120T155929Z
+DTSTART;VALUE=DATE:20251120
+DTEND;VALUE=DATE:20251121
+SUMMARY:קליניקה נבחרת נוער 
+LOCATION:און ליין
+DESCRIPTION:קליניקה נבחרת נוער עם סאשה שולץ יו
+ ם 1/3
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0fe9dd1e-60ec-4e04-a1f3-4f8e01a16c56@ief-dressage.com
+DTSTAMP:20251120T160102Z
+DTSTART;VALUE=DATE:20251121
+DTEND;VALUE=DATE:20251122
+SUMMARY:קליניקה נבחרת נוער
+LOCATION:און ליין
+DESCRIPTION:קליניקה נבחרת נוער עם סאשה שולץ יו
+ ם 2/3
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e41788b9-7d1c-4457-983b-23cd1d96e5a4@ief-dressage.com
+DTSTAMP:20251120T160201Z
+DTSTART;VALUE=DATE:20251122
+DTEND;VALUE=DATE:20251123
+SUMMARY:קליניקה נבחרת נוער 
+LOCATION:און ליין
+DESCRIPTION:קליניקה נבחרת נוער עם סאשה שולץ יו
+ ם 3/3
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f13000c0-42c7-4f57-8730-aaade42a8cce@ief-dressage.com
+DTSTAMP:20251102T171458Z
+DTSTART;VALUE=DATE:20251129
+DTEND;VALUE=DATE:20251130
+SUMMARY:תחרות דירוג 3
+LOCATION:חוות אייל
+DESCRIPTION:תחרות דרוג לאליפות ישראל 3 - דרוג ל
+ אליפות ליגה צעירה 3 - דרוג לאליפות גביע ה
+ מדינה 3 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventProLookup.taf?_id=64076&did=6806&G=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5a8050a5-6003-4448-9186-f7ab09d8c1fa@ief-dressage.com
+DTSTAMP:20251108T162150Z
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+SUMMARY:אינטרנטית - תחרות דרוג 2 - צילום עצמי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4164&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c19e8f26-1ac9-4435-98af-6912faeb9a6d@ief-dressage.com
+DTSTAMP:20251108T163643Z
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+SUMMARY:קליניקת רכיבה (יום 1 מתוך 5)
+DESCRIPTION:קליניקת רכיבה ושיפור מבחנים עם הש
+ ופטת האמריקאית אביבה נבסקי
+URL:https://docs.google.com/forms/d/e/1FAIpQLSfdQodcMKHbVqmeMDMYIA1h_5g0xD
+ KAcvTGjk4t4nz4KL74sA/viewform?pli=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c58fc810-f61d-4b1a-a996-f010e3134038@ief-dressage.com
+DTSTAMP:20251108T163719Z
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+SUMMARY:קליניקת רכיבה (יום 5 מתוך 5)
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9b3ae3f4-ebf5-4848-a05e-6c65f0dc2ee3@ief-dressage.com
+DTSTAMP:20251209T074906Z
+DTSTART;VALUE=DATE:20251226
+DTEND;VALUE=DATE:20251227
+SUMMARY:תחרות דירוג 4
+LOCATION:חוות דאבל קיי
+DESCRIPTION:תחרות דרוג לאליפות ישראל 4 - דרוג ל
+ אליפות ליגה צעירה 4 - דרוג לאליפות גביע ה
+ מדינה 4 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?_function=details&_ID=
+ 64077&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7f111cc9-7177-4ac5-bb99-bdb7249eb645@ief-dressage.com
+DTSTAMP:20251209T074942Z
+DTSTART;VALUE=DATE:20251227
+DTEND;VALUE=DATE:20251228
+SUMMARY:תחרות דירוג 5
+LOCATION:חוות דאבל קיי
+DESCRIPTION:תחרות דרוג לאליפות ישראל 5 - דרוג ל
+ אליפות ליגה צעירה 5 - דרוג לאליפות גביע ה
+ מדינה 5 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4078&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:815c00eb-c27a-4d70-928f-4f6a077f9c2d@ief-dressage.com
+DTSTAMP:20251108T162139Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+SUMMARY:אינטרנטית - תחרות דרוג 3 - צילום עצמי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4165&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8aab0f09-f625-464c-b853-7c18fb691d93@ief-dressage.com
+DTSTAMP:20251110T071256Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:קליניקת שיפוט (1/3)
+DESCRIPTION:קליניקת רענון לשופטים מרמת A ו B.\nק
+ ליניקה להכשרת שופטים חדשים כחלק מתכנית 
+ ההכשרה
+URL:https://forms.gle/dxL1B543FQjjEBvR9
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da4720fd-6dcc-47f2-91f4-264f381fcfac@ief-dressage.com
+DTSTAMP:20251116T192826Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:קליניקה-נבחרת נוער
+DESCRIPTION:קליניקת רכיבה לנבחרת נוער ולמדריכ
+ ים ומאמנים עם סשה שולץ\nיום 1/3
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d6061fb0-6737-48fb-95c4-cf6e6215f67f@ief-dressage.com
+DTSTAMP:20251116T192857Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:קליניקה-נבחרת נוער
+DESCRIPTION:קליניקת רכיבה לנבחרת נוער ולמדריכ
+ ים ומאמנים עם סשה שולץ\nיום 2/3
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef56e37b-896b-4642-b60e-743a9d99670f@ief-dressage.com
+DTSTAMP:20251116T192942Z
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+SUMMARY:קליניקה-נבחרת נוער
+DESCRIPTION:קליניקת רכיבה לנבחרת נוער ולמדריכ
+ ים ומאמנים עם סשה שולץ\nיום 3/3
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:39e0c08c-8c19-4fc3-ae39-eab547379b81@ief-dressage.com
+DTSTAMP:20251108T164205Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:קליניקת שיפוט (2/3)
+DESCRIPTION:קליניקת רענון לשופטים מרמת A ו B.\nק
+ ליניקה להכשרת שופטים חדשים כחלק מתכנית 
+ ההכשרה
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd013bf-b281-4bcf-b37d-19513c8c1664@ief-dressage.com
+DTSTAMP:20260106T181827Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260124
+SUMMARY:תחרות דירוג 6
+LOCATION:חוות אייל
+DESCRIPTION:תחרות דרוג לאליפות ישראל 6 - דרוג ל
+ אליפות ליגה צעירה 6 - דרוג לאליפות גביע ה
+ מדינה 6 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4079&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9630021d-f959-4aac-a6b6-12eb9261beec@ief-dressage.com
+DTSTAMP:20251108T162123Z
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260201
+SUMMARY:אינטרנטית  - תחרות דרוג 4 - צילום עצמי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4166&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6365fb1a-20ed-4d38-b97f-a26dd5172109@ief-dressage.com
+DTSTAMP:20251108T162252Z
+DTSTART;VALUE=DATE:20260207
+DTEND;VALUE=DATE:20260208
+SUMMARY:תחרות דירוג 7
+LOCATION:מועדון רכיבה רעננה
+DESCRIPTION:תחרות דרוג לאליפות ישראל 7 - דרוג ל
+ אליפות ליגה צעירה 7 - דרוג לאליפות גביע ה
+ מדינה 7 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4080&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:64e288e6-fda3-44b0-9108-4cebb7fbe088@ief-dressage.com
+DTSTAMP:20251108T164148Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:קליניקת שיפוט (3/3)
+DESCRIPTION:קליניקת רענון לשופטים מרמת A ו B.\nק
+ ליניקה להכשרת שופטים חדשים כחלק מתכנית 
+ ההכשרה
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a32584a2-9079-4849-ada2-028c8571fb98@ief-dressage.com
+DTSTAMP:20251108T162335Z
+DTSTART;VALUE=DATE:20260220
+DTEND;VALUE=DATE:20260221
+SUMMARY:תחרות דירוג 8
+LOCATION:החווה הירוקה
+DESCRIPTION:תחרות דרוג לאליפות ישראל 8 - דרוג ל
+ אליפות ליגה צעירה 8 - דרוג לאליפות גביע ה
+ מדינה 8 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4081&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:297ddbfd-2c47-46e9-aa29-b4f8c30c2ce5@ief-dressage.com
+DTSTAMP:20251108T162431Z
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260301
+SUMMARY:דרסז אינטרנטית - תחרות דרוג 5 - צילום 
+ עצמי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4167&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a1f4958f-c01f-47f7-9671-bc38afff3fbf@ief-dressage.com
+DTSTAMP:20260310T130734Z
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260308
+SUMMARY:תחרות דירוג 9
+LOCATION:החווה הירוקה
+DESCRIPTION:בוטלה - מלחמה
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4082&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bd0c7629-6743-4d84-ae44-52bfa6e85120@ief-dressage.com
+DTSTAMP:20251108T162610Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:תחרות דירוג 10
+LOCATION:חוות אייל
+DESCRIPTION:תחרות דרוג לאליפות ישראל 10 - דרוג ל
+ אליפות ליגה צעירה 10 - דרוג לאליפות גביע ה
+ מדינה 10 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4083&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2527f458-c48e-4949-ab69-28fb1ecc34b9@ief-dressage.com
+DTSTAMP:20251108T162659Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:תחרות דירוג 11
+LOCATION:חוות אייל
+DESCRIPTION:תחרות דרוג לאליפות ישראל 11 - דרוג ל
+ אליפות ליגה צעירה 11 - דרוג לאליפות גביע ה
+ מדינה 11 - דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4084&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:23312cdf-08e2-4679-8d2d-4ab1edfd74c7@ief-dressage.com
+DTSTAMP:20260311T082051Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:מפגש שופטים
+LOCATION:זום
+DESCRIPTION:מפגש שופטי דרסז' - מעבר לניהול תחרו
+ יות ללא נייר\, תוכניות הכשרה וקידום\, ועו
+ ד
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:df94c99f-6749-43b2-88d8-83becfb08c5a@ief-dressage.com
+DTSTAMP:20251108T162736Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:דרסז אינטרנטית - תחרות דרוג 6 - צילום 
+ עצמי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4168&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d51ff279-8023-4ffd-99c7-04a14cdf12d4@ief-dressage.com
+DTSTAMP:20260414T114751Z
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+SUMMARY:תחרות דירוג 12
+LOCATION:מועדון רכיבה רעננה
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a3c7ecb2-4143-439d-bb5e-2f01e2a43e72@ief-dressage.com
+DTSTAMP:20260414T114727Z
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:תחרות דירוג 13
+LOCATION:מועדון רכיבה רעננה
+DESCRIPTION:תחרות דרוג לאליפות ישראל 13- דרוג ל
+ אליפות ליגה צעירה 13- דרוג לאליפות גביע ה
+ מדינה 13- דרוג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4085&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2b27f995-c3b5-4123-9320-ee866b3058b0@ief-dressage.com
+DTSTAMP:20251108T162913Z
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260425
+SUMMARY:דרסז אינטרנטית 25/26 - גמר ליגה אינטרנט
+ ית
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4169&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a3f9911-63d7-4685-a59d-4ce8dd3f67d7@ief-dressage.com
+DTSTAMP:20260414T114823Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:אליפות גביע המדינה! אליפות ליגה צעיר
+ ה
+LOCATION:מועדון רכיבה רעננה
+DESCRIPTION:אליפות רוכב השנה - תחרות דרוג לאלי
+ פות ישראל - דרוג לאליפות ליגה צעירה - דרו
+ ג אישי
+URL:https://www.ief.org.il/html5/EventproLookup.taf?function=details&_ID=6
+ 4086&did=6806&G=12286&SM=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:79f3e43c-007e-4518-bb18-ffc7645f36e1@ief-dressage.com
+DTSTAMP:20251108T163315Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY:אליפות ישראל! (יום 1)
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c2d06758-9794-4a47-aab1-b60338d51879@ief-dressage.com
+DTSTAMP:20251108T163340Z
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+SUMMARY:אליפות ישראל! (יום 2)
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d5fd52db-5baa-4a31-9f21-21c349b65c02@ief-dressage.com
+DTSTAMP:20251108T163417Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:אליפות ישראל! (יום 3)
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7c9d1a1a-ad24-481a-b5e4-5c210449b2d8@ief-dressage.com
+DTSTAMP:20260917T085940Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:דירוג 1
+LOCATION:החווה הירוקה כפר הירוק
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b0ea2879-1d69-45e9-b2a1-3f31d5353e36@ief-dressage.com
+DTSTAMP:20260917T085940Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:דירוג 2
+LOCATION:דאבל-קיי שרונה
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:744dda25-3aad-4697-bba4-c763814bcaa4@ief-dressage.com
+DTSTAMP:20260917T085940Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:דירוג 3
+LOCATION:דאבל-קיי שרונה
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:01e3c665-b4b8-4550-b3fc-b3c39a0846c7@ief-dressage.com
+DTSTAMP:20261105T143520Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:קליניקת רכיבה עם עודד שמעוני
+LOCATION:אורוות קיימונט
+DESCRIPTION:קליניקת רכיבה עם עודד שמעוני באור
+ וות קיימונט\, בתאריכים 19–21.11.2026. יום 1 מתו
+ ך 3.
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d6264f69-3051-4e48-a46f-1215a77529e5@ief-dressage.com
+DTSTAMP:20261105T143547Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:קליניקת רכיבה עם עודד שמעוני
+LOCATION:אורוות קיימונט
+DESCRIPTION:קליניקת רכיבה עם עודד שמעוני באור
+ וות קיימונט\, בתאריכים 19–21.11.2026. יום 2 מתו
+ ך 3.
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:501fe123-f2d5-4430-a31d-8d0d1031813c@ief-dressage.com
+DTSTAMP:20261105T143552Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:קליניקת רכיבה עם עודד שמעוני
+LOCATION:אורוות קיימונט
+DESCRIPTION:קליניקת רכיבה עם עודד שמעוני באור
+ וות קיימונט\, בתאריכים 19–21.11.2026. יום 3 מתו
+ ך 3.
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b694f832-dccf-4be5-a430-4391ee64b62e@ief-dressage.com
+DTSTAMP:20261105T143226Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:דרסז אינטרנטית – דירוג דצמבר – צילו
+ ם עצמי
+LOCATION:אינטרנטית – צילום עצמי
+DESCRIPTION:דירוג דצמבר לעונת 2026/27. הרשמה ומשל
+ וח הסרטונים עד 31.12.2026\, לפי אתר ההתאחדות. 
+ התאריך בלוח הוא תחילת חודש התחרות\; המוע
+ ד האחרון להגשה הוא 31.12.2026.
+URL:https://www.ief.org.il/html5/EventproLookup.taf?_function=details&_ID=
+ 64554&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b50b075d-89bc-4e23-9acf-eb109d0f7fbf@ief-dressage.com
+DTSTAMP:20261107T142632Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:יום אחרון להגשת נבחרות בוגרות
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f59e855e-f97c-4513-9bd3-8e58f13f0bf3@ief-dressage.com
+DTSTAMP:20261115T173522Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:דירוג 4 - ודירוג 1 לאליפות נבחרות
+LOCATION:החווה הירוקה כפר הירוק
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:444f2ae5-4bdb-4142-af52-88175dd14b92@ief-dressage.com
+DTSTAMP:20261105T143318Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:דרסז אינטרנטית – דירוג ינואר – צילו
+ ם עצמי
+LOCATION:אינטרנטית – צילום עצמי
+DESCRIPTION:דירוג ינואר לעונת 2026/27. הרשמה ומשל
+ וח הסרטונים עד 31.1.2027\, לפי אתר ההתאחדות. ה
+ תאריך בלוח הוא תחילת חודש התחרות\; המועד 
+ האחרון להגשה הוא 31.1.2027.
+URL:https://www.ief.org.il/html5/EventproLookup.taf?_function=details&_ID=
+ 64557&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:87d64a66-fabd-46fa-8ff0-74d03b843c7b@ief-dressage.com
+DTSTAMP:20260917T085941Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:דירוג 5
+LOCATION:מועדון רכיבה רעננה
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:45e85b82-3930-4687-9061-bfa4eacb40f2@ief-dressage.com
+DTSTAMP:20261105T143358Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:דרסז אינטרנטית – דירוג פברואר – ציל
+ ום עצמי
+LOCATION:אינטרנטית – צילום עצמי
+DESCRIPTION:דירוג פברואר לעונת 2026/27. הרשמה ומש
+ לוח הסרטונים עד 28.2.2027\, לפי אתר ההתאחדות. 
+ התאריך בלוח הוא תחילת חודש התחרות\; המוע
+ ד האחרון להגשה הוא 28.2.2027.
+URL:https://www.ief.org.il/html5/EventproLookup.taf?_function=details&_ID=
+ 64559&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:73f1c479-9376-478a-8887-4d9207e8950c@ief-dressage.com
+DTSTAMP:20261115T173612Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:דירוג 6 - ודירוג 2 לאליפות נבחרות
+LOCATION:חוות אייל
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb038222-5547-4cef-aca3-0eff4079c292@ief-dressage.com
+DTSTAMP:20261105T143404Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:דרסז אינטרנטית – דירוג מרץ – צילום 
+ עצמי
+LOCATION:אינטרנטית – צילום עצמי
+DESCRIPTION:דירוג מרץ לעונת 2026/27. הרשמה ומשלוח 
+ הסרטונים עד 31.3.2027\, לפי אתר ההתאחדות. התא
+ ריך בלוח הוא תחילת חודש התחרות\; המועד הא
+ חרון להגשה הוא 31.3.2027.
+URL:https://www.ief.org.il/html5/EventproLookup.taf?_function=details&_ID=
+ 64561&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c2a2b7f3-2f6a-45d9-8275-0039f8ccda9b@ief-dressage.com
+DTSTAMP:20260917T085941Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:דירוג 7
+LOCATION:חוות אייל
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e8d1b694-c197-465a-8c1e-5822f028fa9b@ief-dressage.com
+DTSTAMP:20260917T085941Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:דירוג 8
+LOCATION:חוות אייל
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7e3cc126-d4bd-48c1-8e62-35019f1d0b44@ief-dressage.com
+DTSTAMP:20261115T173650Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:דירוג 9 - ודירוג 3 לאליפות נבחרות
+LOCATION:החווה הירוקה כפר הירוק
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2d0c7db5-91aa-4292-bbe1-45eee19dbcf6@ief-dressage.com
+DTSTAMP:20261105T143411Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:דרסז אינטרנטית – תחרות גמר – מועד מ
+ דויק יפורסם
+LOCATION:אינטרנטית
+DESCRIPTION:תחרות הגמר לעונת 2026/27 תיערך במהלך 
+ חודש אפריל 2027. לפי ההתאחדות\, פרטים יפורס
+ מו בהמשך. 1.4.2027 הוא תאריך מציין לחודש בלב
+ ד\, ואינו מועד סופי מאושר.
+URL:https://www.ief.org.il/html5/EventproLookup.taf?_function=details&_ID=
+ 64565&did=6806&G=11700&SM=12286
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:24c41067-aabe-4633-ada2-3137d2a8aee3@ief-dressage.com
+DTSTAMP:20261115T173718Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:דירוג 10 - ודירוג אחרון לאליפות נבחרו
+ ת
+LOCATION:מועדון רכיבה רעננה
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:45748d89-2166-4151-90e2-ec53a9a05f3a@ief-dressage.com
+DTSTAMP:20260917T085941Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:דירוג 11
+LOCATION:מועדון רכיבה רעננה
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:43271737-cd0b-40ae-baeb-0ce27440068a@ief-dressage.com
+DTSTAMP:20260917T085941Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:גמר גביע + דירוג 12
+LOCATION:מועדון רכיבה רעננה
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3774bd4a-1c2e-4d6b-9a58-3b3f223856cd@ief-dressage.com
+DTSTAMP:20260917T085942Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:גמר ליגה צעירה + דירוג 13
+LOCATION:חוות אייל
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:145247b0-cafc-48d2-b7b0-1030e96c5e3f@ief-dressage.com
+DTSTAMP:20260917T085942Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:אליפות ישראל
+LOCATION:טרם נקבע
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:822def5d-2d71-4182-a749-ba7542fbd033@ief-dressage.com
+DTSTAMP:20260917T085942Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:אליפות ישראל
+LOCATION:טרם נקבע
+DESCRIPTION:תחרות ארצית
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:08395d87-b462-4bc6-9e7d-dc57132bf7fa@ief-dressage.com
+DTSTAMP:20261115T173917Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:אליפות נבחרות
+LOCATION:מר טרם נקבע
+DESCRIPTION:תחרות הגמר החגיגית של אליפות נבחר
+ ות בוגרות
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:32d6f7be-88a7-461e-8f9d-5682e9904e69@ief-dressage.com
+DTSTAMP:20261115T174119Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:אליפות נבחרות
+LOCATION:מר טרם נקבע
+DESCRIPTION:אליפות נבחרות בוגרות 2027
+URL:https://ief-dressage.com/calendar
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
