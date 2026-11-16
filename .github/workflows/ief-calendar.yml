@@ -1,0 +1,26 @@
+# Saves a daily copy of the Israeli Equestrian Association calendar next to the app (as ief.ics),
+# so phones can read it from the same website. Put this file at:  .github/workflows/ief-calendar.yml
+name: Update IEF calendar
+on:
+  schedule:
+    - cron: "17 3 * * *"      # every day, ~06:17 Israel time
+  workflow_dispatch:           # also lets you run it by hand (Actions tab -> Update IEF calendar -> Run workflow)
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download the calendar (keeps the old copy if the download looks wrong)
+        run: |
+          curl -fsSL --retry 3 -A "Mozilla/5.0" https://ief-dressage.com/calendar.ics -o ief.new
+          grep -q "BEGIN:VCALENDAR" ief.new
+          grep -q "BEGIN:VEVENT" ief.new
+          mv ief.new ief.ics
+      - name: Save it if it changed
+        run: |
+          git config user.name "ief-calendar-bot"
+          git config user.email "ief-calendar-bot@users.noreply.github.com"
+          git add ief.ics
+          git diff --cached --quiet || (git commit -m "Update IEF calendar" && git push)
